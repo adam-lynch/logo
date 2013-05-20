@@ -1,0 +1,89 @@
+.logo {
+	.size(@triangleHeight + @triangleGutter * 2, @triangleWidth * 2 + @triangleGutter * 2);
+
+	position: relative;
+
+	font-family: sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+
+	&:hover {
+		cursor: pointer;
+
+		.triangle-peak {
+			.triangle-animation(triangle-peak, false);
+		}
+
+		.triangle-left {
+			.triangle-animation(triangle-left, false);
+		}
+
+		.triangle-right {
+			.triangle-animation(triangle-right, false);
+		}
+	}
+
+	&:active,
+	&.active {
+		.triangle {
+			opacity: @triangleOpacity * 2;
+		}
+		.triangle-peak {
+			.triangle-animation(triangle-peak, true);
+		}
+
+		.triangle-left {
+			.triangle-animation(triangle-left, true);
+		}
+
+		.triangle-right {
+			.triangle-animation(triangle-right, true);
+			right: @triangleGutter;
+		}
+	}
+
+	//click when already hovered on center
+	&.active:active {
+		.logo-initial {
+			color: @logoInitialColorActive;
+		}
+	}
+}
+
+.logo-initial {
+	@logoInitialHeight: @triangleHeight * 0.8;
+
+	position: absolute;
+	top: @triangleGutter * 2.5;
+
+	color: @logoInitialColor;
+	font-size: @logoInitialHeight;
+	line-height: @logoInitialHeight;
+	opacity: 0.9;
+	text-align: center;
+	width: 100%;
+	z-index: 30;
+}
+
+.logo-name {
+	text-transform: uppercase;
+
+	position: relative;
+	top: @triangleHeight + @triangleGutter * 2;
+	width: 100%;
+	text-align: center;
+	color: @triangleColor;
+	opacity: @triangleOpacity * 2.5;
+	padding-top: @triangleGutter/2;
+
+	font-size: 13px;
+}
+
+.logo-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	.square(100%);
+
+	z-index: 100;
+}

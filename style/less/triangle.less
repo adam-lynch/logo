@@ -1,0 +1,59 @@
+@import "triangle-animation.less";
+
+.triangle {
+	width: 0;
+	height: 0;
+
+	border: @triangleWidth solid transparent;
+	border-top-width: @triangleHeight;
+	border-bottom-width: @triangleHeight;
+	opacity: @triangleOpacity;
+
+	position: absolute;
+	bottom: 0;
+}
+
+.triangle-up {
+	border-top: 0;
+	border-bottom-color: @triangleColor;
+}
+
+.triangle-center {
+	bottom: @triangleGutter/2;
+	left: @triangleGutter;
+	z-index: 20;
+}
+
+.triangle-peak {
+	bottom: @triangleGutter * 1.7;
+	left: @triangleGutter;
+}
+
+.triangle-left {
+	left: 0;
+}
+
+.triangle-right {
+	right: 0;
+}
+
+//keyframes; peak:
+@-webkit-keyframes triangle-peak { .triangle-peak-keyframes; }
+@-moz-keyframes triangle-peak { .triangle-peak-keyframes; }
+@-ms-keyframes triangle-peak { .triangle-peak-keyframes; }
+@-o-keyframes triangle-peak { .triangle-peak-keyframes; }
+@keyframes triangle-peak { .triangle-peak-keyframes; }
+
+//keyframes; left:
+@-webkit-keyframes triangle-left { .triangle-left-keyframes; }
+@-moz-keyframes triangle-left { .triangle-left-keyframes; }
+@-ms-keyframes triangle-left { .triangle-left-keyframes; }
+@-o-keyframes triangle-left { .triangle-left-keyframes; }
+@keyframes triangle-left { .triangle-left-keyframes; }
+
+//keyframes; right:
+@-webkit-keyframes triangle-right { .triangle-right-keyframes; }
+@-moz-keyframes triangle-right { .triangle-right-keyframes; }
+@-ms-keyframes triangle-right { .triangle-right-keyframes; }
+@-o-keyframes triangle-right { .triangle-right-keyframes; }
+@keyframes triangle-right { .triangle-right-keyframes; }

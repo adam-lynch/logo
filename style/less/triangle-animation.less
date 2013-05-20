@@ -1,0 +1,52 @@
+.triangle-animation (@rest, @active) when (@active) {
+	.animate-triangle(@rest, 0.25s);
+}
+
+.triangle-animation (@rest, @active) when not (@active) {
+	.animate-triangle(@rest, 1.5s infinite);
+}
+
+.animate-triangle(@rest, @timing) {
+
+	.animation(@rest @timing ease-in-out alternate);
+}
+
+.triangle-peak-keyframes {
+	0% {
+		bottom: @triangleGutter * 1.7;
+		opacity: @triangleOpacity;
+	}
+
+	100% {
+		bottom: @triangleGutter;
+		opacity: @triangleOpacity/2;
+	}
+}
+
+.triangle-left-keyframes {
+	0% {
+		left: 0;
+		bottom: 0;
+		opacity: @triangleOpacity;
+	}
+
+	100% {
+		left: @triangleGutter/2;
+		bottom: @triangleGutter/4;
+		opacity: @triangleOpacity/2;
+	}
+}
+
+.triangle-right-keyframes {
+	0% {
+		right: 0;
+		bottom: 0;
+		opacity: @triangleOpacity;
+	}
+
+	100% {
+		right: @triangleGutter/2;
+		bottom: @triangleGutter/4;
+		opacity: @triangleOpacity/2;
+	}
+}
