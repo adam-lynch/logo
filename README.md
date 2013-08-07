@@ -5,9 +5,9 @@ Feedback welcomed.
 
 Skip to revision: 
 
-- [1](#rev1) 
-- [2](#rev2)
-- [3](#rev3)
+- [Revision 1](#rev1) 
+- [Revision 2](#rev2)
+- [Revision 3](#rev3)
 
 ---------------
 
