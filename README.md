@@ -1,6 +1,6 @@
 # Logo
 
-This is a work in progress. Below is a bunch of ideas I [submitted to Hunie](http://hunie.co/designs/1750-adam-lynch-logo/) for feedback. I also implemented it in CSS (minus the correct fonts); [view the demo](http://adam-lynch.github.com/logo).
+This is a work in progress. Below is a bunch of ideas I [submitted to Hunie](http://hunie.co/designs/1750-adam-lynch-logo/) for feedback. I also implemented [revision 1](#rev1) in CSS (minus the correct fonts); [view the demo](http://adam-lynch.github.com/logo).
 Feedback welcomed.
 
 Skip to revision: 
