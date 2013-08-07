@@ -13,13 +13,13 @@ Skip to revision:
 
 ## <a id="rev1"></a>Revision 1
 
-![Ideas (Hunie submission)](https://github.com/adam-lynch/logo/tree/master/images/ideas.png)
+![Ideas (Hunie submission)](https://raw.github.com/adam-lynch/logo/master/images/ideas.PNG)
 
 ## <a id="rev2"></a>Revision 2
 
 I haven't abandoned my first idea but anyway, here's the latest:
-![Ideas (Hunie submission) #2](https://github.com/adam-lynch/logo/tree/master/images/rev2.png)
+![Ideas (Hunie submission) #2](https://raw.github.com/adam-lynch/logo/master/images/rev2.png)
 
 ## <a id="rev3"></a>Revision 3
 
-![Ideas (Hunie submission) #3](https://github.com/adam-lynch/logo/tree/master/images/rev3.png)
+![Ideas (Hunie submission) #3](https://raw.github.com/adam-lynch/logo/master/images/rev3.png)
