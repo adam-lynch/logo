@@ -1,6 +1,6 @@
 # Logo
 
-This is a work in progress. Below is a bunch of ideas I [submitted to Hunie](http://hunie.co/designs/1750-adam-lynch-logo/) for feedback. I also implemented [revision 1](#revision-1) in CSS (minus the correct fonts); [view the demo](http://adam-lynch.github.com/logo).
+This is a work in progress. Below is a bunch of ideas I [submitted to Hunie](http://hunie.co/designs/1750-adam-lynch-logo/) for feedback. I also implemented [revision 1](#revision-1) in CSS (minus the actual fonts); [see it](http://adam-lynch.github.com/logo).
 Feedback welcomed.
 
 Skip to revision: 
@@ -8,6 +8,7 @@ Skip to revision:
 - [Revision 1](#revision-1) 
 - [Revision 2](#revision-2)
 - [Revision 3](#revision-3)
+- [Revision 4 (final version, I think)](#revision-3)
 
 ---------------
 
@@ -23,3 +24,8 @@ I haven't abandoned my first idea but anyway, here's the latest:
 ## Revision 3
 
 ![Ideas (Hunie submission) #3](https://raw.github.com/adam-lynch/logo/master/images/rev3.png)
+
+
+## Revision 4 (final version, I think)
+
+![Ideas (Hunie submission) #4](https://raw.github.com/adam-lynch/logo/master/images/Logo.jpg)
