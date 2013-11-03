@@ -8,7 +8,7 @@ Skip to revision:
 - [Revision 1](#revision-1) 
 - [Revision 2](#revision-2)
 - [Revision 3](#revision-3)
-- [Revision 4 (final version, I think)](#revision-3)
+- [Revision 4 (final version, I think)](#revision-4)
 
 ---------------
 
@@ -26,6 +26,7 @@ I haven't abandoned my first idea but anyway, here's the latest:
 ![Ideas (Hunie submission) #3](https://raw.github.com/adam-lynch/logo/master/images/rev3.png)
 
 
-## Revision 4 (final version, I think)
+## Revision 4
+Final version, I think
 
 ![Ideas (Hunie submission) #4](https://raw.github.com/adam-lynch/logo/master/images/Logo.jpg)
